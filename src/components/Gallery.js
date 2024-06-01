@@ -12,7 +12,7 @@ function Gallery(){
         )
     })
     return (
-        <div>
+        <div style={{display: 'flex', justifyContent: 'space-evenly', flexDirection: 'column'}}>
             {display}
         </div>
     )
